@@ -57,6 +57,7 @@ typedef struct {
     Boolean	 xquartz_hack;
     char	*keypad;
     char	*efontname;
+    char    *ffontname; /* freetype font name */
     char	*fixed_size;
     char	*icon_font;
     char	*icon_label_font;

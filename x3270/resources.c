@@ -241,6 +241,8 @@ XtResource xresources[] = {
       offset(keypadbg_name), XtRString, "grey70" },
     { ResEmulatorFont, ClsEmulatorFont, XtRString, sizeof(char *),
       offset(efontname), XtRString, 0 },
+    { ResFreetypeFont, ClsFreetypeFont, XtRString, sizeof(char *), /* freetype font name */
+      offset(ffontname), XtRString, 0 },
     { ResUseCursorColor, ClsUseCursorColor, XtRBoolean, sizeof(Boolean),
       offset(use_cursor_color), XtRString, ResFalse },
     { ResVisualSelect, ClsVisualSelect, XtRBoolean, sizeof(Boolean),
